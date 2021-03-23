@@ -12,4 +12,5 @@
 .buttons{
     align-items: center;
     justify-content: center;
+    display: flexbox;
 }
