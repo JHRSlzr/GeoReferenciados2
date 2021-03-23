@@ -14,7 +14,7 @@ console.log(idioma);
 document.getElementById('idioma').value = idioma;
 
 var script = document.createElement('script');
-script.src= 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD6EILSc1qFkatoKwxvk9rKhMnlRwpjvSM&callback=iniciaMapa&language='+idioma;
+script.src= 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCklgR88CgKokH7bIKeOy1EVmVVHuq4tXo&callback=iniciaMapa&language='+idioma;
 document.head.appendChild(script);
 
 function iniciaMapa() {
