@@ -1,0 +1,62 @@
+!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  
+  <title>Hello, world!</title>
+</head>
+<header>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <!-- Image and text -->
+      <a class="navbar-brand" href="#"> <img src="../images/worldwide.png" alt="" width="30" class="d-inline-block align-top">
+        Practica 11
+      </a>
+    </div>
+  </nav>
+</header>
+<body>
+  <!--MAPA-->
+  <div class="container-fluid">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                <h1 class="text-center my-3">Google Maps Clustering</h1>
+                <div id="mapa"></div>
+              </div>
+          </div>
+          <div class="row my-3">
+              <div class="col">
+                <button type="button" class="mx-1 btn btn-primary" id='btnroadmap'>ROADMAP</button>
+                <button type="button" class="mx-1 btn btn-warning" id='btnsatelite'>SATELITE</button>            
+                <button type="button" class="mx-1 btn btn-danger" id='btnhybrid'>HYBRID</button>
+                <button type="button" class="mx-1 btn btn-success" id='btnterrain'>TERRAIN</button>
+              </div>            
+          </div>
+      </div>
+  </div>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+    crossorigin="anonymous"></script>
+    
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6EILSc1qFkatoKwxvk9rKhMnlRwpjvSM&callback=iniciaMapa" async defer></script>
+  <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+
+  <script type="text/javascript" src="App.js"></script>
+
+</body>
+</html>
