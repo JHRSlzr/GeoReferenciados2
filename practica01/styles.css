@@ -10,6 +10,6 @@
   }
 
 .buttons{
-    align-items: center;
+    text-align: center;
     display: flexbox;
 }
