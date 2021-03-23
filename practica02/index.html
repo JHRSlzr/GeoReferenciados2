@@ -12,18 +12,6 @@
   
   <title>PRACTICA 02</title>
 </head>
-
-<header>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <!-- Image and text -->
-      <a class="navbar-brand" href="#"> <img src="../images/worldwide.png" alt="" width="30" class="d-inline-block align-top">
-        Practica 12
-      </a>
-    </div>
-  </nav>
-</header>
-
 <body>
   <!--MAPA-->
   <div class="container-fluid">
@@ -34,8 +22,12 @@
               </div>
               <div class="col-xs-12 col-lg-6">
                 <form>
+                    
                   <select id='idioma' name="idioma" class="form-control" onchange="this.form.submit()">
-                    <option value="es" selected>Español</option>
+                    <option value="" selected disabled hidden> 
+                        ---Selecciona un idioma---
+                    </option> 
+                    <option value="es">Español</option>
                     <option value="en">Inglés</option>
                     <option value="it">Italiano</option>
                     <option value="zh">Chino</option>
