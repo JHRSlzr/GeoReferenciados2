@@ -7,7 +7,7 @@ function iniciaMapa(){
                 "elementType": "geometry",
                 "stylers": [
                 {
-                    "color": "#37E66A"
+                    "color": "#528079"
                 }
                 ]
             },
@@ -104,7 +104,7 @@ function iniciaMapa(){
                 "elementType": "geometry.fill",
                 "stylers": [
                 {
-                    "color": "#023e58"
+                    "color": "#37E66A"
                 }
                 ]
             },
