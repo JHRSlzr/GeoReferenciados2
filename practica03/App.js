@@ -265,7 +265,5 @@ function iniciaMapa(){
     map.mapTypes.set('style_map', MapStyle);
     map.setMapTypeId('style_map');
 
-
-
 }
 
