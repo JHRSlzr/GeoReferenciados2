@@ -1,7 +1,6 @@
-body {
-    background-color: dimgrey;
-}
-
-.list{
+.listcontainer{
     background-color: lightgreen;
+}
+.lista{
+    background-color: mediumseagreen;
 }
